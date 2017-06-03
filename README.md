@@ -14,6 +14,7 @@ Run these commands on the frontend server
 
 ```
 # cd /usr/local/share/maps/style
+# rm master.zip
 # wget https://github.com/tomedme/km-style/archive/master.zip
 # unzip master.zip
 # cd km-style-master
@@ -92,8 +93,10 @@ Once rendering has finished, you need to convert the metatiles to png images
 
 ```
 # cd ~/
-# git clone https://github.com/tomedme/meta2tile.git
-# cd meta2tile/
+# rm master.zip
+# wget https://github.com/tomedme/meta2tile/archive/master.zip
+# unzip meta2tile-master.zip
+# cd meta2tile-master/
 # make
 ```
 
@@ -107,7 +110,7 @@ Create the directory that will contain the png files
 Convert the metatiles
 
 ```
-# ~/meta2tile/meta2tile /var/lib/mod_tile/kaufmich ~/tiles
+# ~/meta2tile-master/meta2tile /var/lib/mod_tile/kaufmich ~/tiles
 ```
 
 Final step is to transfer the png files to the image store on the cluster
