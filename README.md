@@ -2,7 +2,7 @@
 
 This repository contains the "Kaufmich Light" map style
 
-See [here](custom-map-style) for instructions to create a custom map style, from a template (OSM Bright)
+See [here](custom-map-style.md) for instructions to create a custom map style, from a template (OSM Bright)
 
 ## Getting started
 
